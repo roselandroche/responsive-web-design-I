@@ -248,3 +248,11 @@ footer {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+  
+}
