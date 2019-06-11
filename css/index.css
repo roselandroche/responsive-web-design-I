@@ -265,10 +265,7 @@ footer {
     display: none;
   }
   .left-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
   }
 }
 
