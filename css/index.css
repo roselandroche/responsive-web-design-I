@@ -261,11 +261,14 @@ footer {
   nav {
     order: 2;
   }
+  .cta {
+    justify-content: center;
+  }
   .cta img {
     display: none;
   }
   .cta .left-content {
-    
+    margin-right: 0px;
   }
 }
 
