@@ -250,9 +250,18 @@ footer {
 }
 
 @media (max-width: 800px) {
-
+  header {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .logo {
+    order: 1;
+  }
+  nav {
+    order: 2;
+  }
 }
 
 @media (max-width: 500px) {
-  
+
 }
