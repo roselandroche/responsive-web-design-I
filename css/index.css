@@ -262,14 +262,13 @@ footer {
     order: 2;
   }
   .cta img {
-    visibility: hidden;
+    display: none;
   }
   .left-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px;
   }
 }
 
