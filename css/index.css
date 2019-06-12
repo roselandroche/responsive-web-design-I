@@ -273,9 +273,45 @@ footer {
   .cta .left-content {
     margin-right: 0px;
   }
+
+  /* Copied and pasted unedited original below */
+  
+  .middle-content {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 75px;
+    margin-bottom: 35px;
+    padding: 35px 0;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  
+  .middle-content .top-row {
+    display: flex;
+  }
+  
   .middle-content img {
-    /* margin: 30px auto; */
-    /* padding:  */
+    display: block;
+    margin: 30px auto;
+  }
+  
+  .middle-content .bottom-row {
+    display: flex;
+  }
+  
+  .middle-content .bottom-row p {
+    padding-right: 20px;
+  }
+  
+  .contact p {
+    margin: 15px 0;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
   }
 }
 
