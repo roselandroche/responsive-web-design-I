@@ -293,6 +293,7 @@ footer {
   .middle-content img {
     display: block;
     margin: 30px auto;
+    width: 99%;
   }
 }
 
