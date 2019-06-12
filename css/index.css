@@ -294,25 +294,6 @@ footer {
     display: block;
     margin: 30px auto;
   }
-  
-  .middle-content .bottom-row {
-    display: flex;
-  }
-  
-  .middle-content .bottom-row p {
-    padding-right: 20px;
-  }
-  
-  .contact p {
-    margin: 15px 0;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-  }
 }
 
 @media (max-width: 500px) {
