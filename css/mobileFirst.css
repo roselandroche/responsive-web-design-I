@@ -301,6 +301,12 @@ h5 {
       
       header nav {
         width: 100%;
+        flex-direction: row;
+        border-top: none;
+      }
+
+      header nav a {
+        border-bottom: none;
       }
       
       .middle-content .bottom-row {
