@@ -375,30 +375,31 @@ h5 {
       }
       
       .middle-content .top-row {
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        flex-direction: row;
+        margin-right: 15px;
       }
       
-      .middle-content p {
+      /* .middle-content p {
         margin-top: 30px;
-      }
+      } */
     
-      h4 {
+      /* h4 {
           margin-top: 30px;
-      }
+      } */
     
-      .middle-content img {
+      /* .middle-content img {
         display: block;
         margin: 30px auto;
         width: 100%;
-      }
+      } */
       
       .middle-content .bottom-row {
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        flex-direction: row;
       }
       
-      .middle-content .bottom-row p {
+      /* .middle-content .bottom-row p {
         padding-right: 20px;
       }
       
@@ -410,7 +411,7 @@ h5 {
         text-align: center;
         margin-top: 40px;
         margin-bottom: 20px;
-      }
+      } */
 }
 
 /* Destop design */
