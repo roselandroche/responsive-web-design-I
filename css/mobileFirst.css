@@ -318,20 +318,23 @@ h5 {
 @media(min-width: 800px){
     .container {
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
+        padding: auto;
       }
       
       header {
-        display: flex;
-        justify-content: space-between;
+        /* display: flex; */
+        /* justify-content: space-between;
         align-items: center;
-        margin-top: 28px;
+        margin-top: 28px; */
+        flex-direction: row;
       }
       
       header nav {
-        width: 610px;
-        display: flex;
+        width: 100%;
+        /* display: flex; */
         justify-content: space-between;
+        order: auto;
       }
       
       header nav a {
@@ -342,7 +345,12 @@ h5 {
         color: black;
         text-decoration: underline;
       }
-      
+      /* take away margin */
+      .logo {
+          margin-bottom: 0px;
+          order: auto;
+      }
+
       .cta {
         display: flex;
         justify-content: flex-end;
