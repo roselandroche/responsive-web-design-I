@@ -309,9 +309,22 @@ h5 {
         border-bottom: none;
       }
       
+      /* h4 {
+        padding-top: 30;
+        margin-bottom: 20px;
+      } 
+      .middle-content p {
+        margin-bottom: 20px;
+    } */
+     
+
+      .middle-content .top-row {
+        flex-direction: row;
+      }
+
       .middle-content .bottom-row {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
       }
       
       .middle-content .bottom-row p {
