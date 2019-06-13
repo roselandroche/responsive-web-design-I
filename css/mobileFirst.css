@@ -345,7 +345,7 @@ h5 {
         color: black;
         text-decoration: underline;
       }
-      /* take away margin */
+      
       .logo {
           margin-bottom: 0px;
           order: auto;
