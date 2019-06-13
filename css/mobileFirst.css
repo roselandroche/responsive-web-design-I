@@ -289,42 +289,43 @@ h5 {
       } */
       
       header {
-        display: flex;
+        /* display: flex; */
         flex-flow: column;
-        justify-content: space-between;
-        align-items: center;
+        /* justify-content: space-between; */
+        /* align-items: center; */
         margin-top: 28px;
       }
       
       header nav {
-        width: 610px;
-        display: flex;
+        /* width: 100%; */
+        /* display: flex; */
         flex-flow: row;
-        justify-content: center;
+        /* justify-content: space-between; */
         border-top: none;
       }
     
-      .logo {
+      /* .logo {
         order: 1;
         margin-bottom: 40px;
       }
+
       nav {
         order: 2;
-      }
+      } */
       
       header nav a {
-        color: #b0b0b0;
-        width: 100%;
-        padding: 20px;
+        /* color: #b0b0b0; */
+        /* width: 100%; */
+        /* padding: 20px; */
         border-bottom: none;
-        text-align: center;
-        font-size: 18px;
+        /* text-align: center; */
+        font-size: 16px;
       }
       
-      header nav a:hover {
+      /* header nav a:hover {
         color: black;
         text-decoration: underline;
-      }
+      } */
       
       .cta {
         display: flex;
