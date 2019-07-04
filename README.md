@@ -10,6 +10,7 @@ Follow these steps to set up and work on your project:
 - [ ] Add your project manager as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ ] Initial commit
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
